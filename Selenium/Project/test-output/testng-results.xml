@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="26" passed="20" failed="4" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Page title is Javascript Alerts |]]>
+    </line>
+    <line>
+      <![CDATA[simpleAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Simple Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Alert! |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[confirmAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Confirmation! |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed |]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[promptAlertTestCase() started |]]>
+    </line>
+    <line>
+      <![CDATA[Prompt Alert opened |]]>
+    </line>
+    <line>
+      <![CDATA[Switched foucs to alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is: This is a JavaScript Prompt! |]]>
+    </line>
+    <line>
+      <![CDATA[Text entered in prompt alert |]]>
+    </line>
+    <line>
+      <![CDATA[Alert closed |]]>
+    </line>
+    <line>
+      <![CDATA[Test case ended |]]>
+    </line>
+    <line>
+      <![CDATA[Ending Test |]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-11-25T13:47:53 IST" name="Suite" finished-at="2021-11-25T13:50:09 IST" duration-ms="136045">
+    <groups>
+      <group name="ButtonTests">
+        <method signature="Activity5.buttonTest1()[pri:0, instance:TestNG.Activity5@55c53a33]" name="buttonTest1" class="TestNG.Activity5"/>
+        <method signature="Activity5.buttonTest2()[pri:0, instance:TestNG.Activity5@55c53a33]" name="buttonTest2" class="TestNG.Activity5"/>
+      </group> <!-- ButtonTests -->
+      <group name="HeaderTests">
+        <method signature="Activity5.headerTest1()[pri:0, instance:TestNG.Activity5@55c53a33]" name="headerTest1" class="TestNG.Activity5"/>
+        <method signature="Activity5.headerTest2()[pri:0, instance:TestNG.Activity5@55c53a33]" name="headerTest2" class="TestNG.Activity5"/>
+      </group> <!-- HeaderTests -->
+    </groups>
+    <test started-at="2021-11-25T13:47:53 IST" name="Test" finished-at="2021-11-25T13:50:09 IST" duration-ms="136045">
+      <class name="com.ibm.Activity_4">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_4@f14a7d4]" started-at="2021-11-25T13:49:27 IST" name="browserSetUp" finished-at="2021-11-25T13:49:29 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifySecondWebsiteHeading()[pri:0, instance:com.ibm.Activity_4@f14a7d4]" started-at="2021-11-25T13:49:29 IST" name="verifySecondWebsiteHeading" finished-at="2021-11-25T13:49:32 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondWebsiteHeading -->
+      </class> <!-- com.ibm.Activity_4 -->
+      <class name="com.ibm.Activity_3">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_3@52e7a6b2]" started-at="2021-11-25T13:49:32 IST" name="browserSetUp" finished-at="2021-11-25T13:49:33 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyurlOfHeaderImage()[pri:0, instance:com.ibm.Activity_3@52e7a6b2]" started-at="2021-11-25T13:49:33 IST" name="verifyurlOfHeaderImage" finished-at="2021-11-25T13:49:36 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurlOfHeaderImage -->
+      </class> <!-- com.ibm.Activity_3 -->
+      <class name="com.ibm.Activity_2">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_2@4a3631f8]" started-at="2021-11-25T13:49:20 IST" name="browserSetUp" finished-at="2021-11-25T13:49:22 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyWebsiteHeading()[pri:0, instance:com.ibm.Activity_2@4a3631f8]" started-at="2021-11-25T13:49:22 IST" name="verifyWebsiteHeading" finished-at="2021-11-25T13:49:23 IST" duration-ms="1115" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\0027RQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3accb4b55ac7c107e4f82f9f781a8514]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\0027RQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3accb4b55ac7c107e4f82f9f781a8514
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.ibm.Activity_2.verifyWebsiteHeading(Activity_2.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebsiteHeading -->
+      </class> <!-- com.ibm.Activity_2 -->
+      <class name="com.ibm.Activity_1">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_1@6b58b9e9]" started-at="2021-11-25T13:49:23 IST" name="browserSetUp" finished-at="2021-11-25T13:49:25 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyWebsiteTitle()[pri:0, instance:com.ibm.Activity_1@6b58b9e9]" started-at="2021-11-25T13:49:25 IST" name="verifyWebsiteTitle" finished-at="2021-11-25T13:49:27 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebsiteTitle -->
+      </class> <!-- com.ibm.Activity_1 -->
+      <class name="TestNG.Activity1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.Activity1@407a7f2a]" started-at="2021-11-25T13:48:00 IST" name="beforeMethod" finished-at="2021-11-25T13:48:06 IST" duration-ms="6166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTitle()[pri:0, instance:TestNG.Activity1@407a7f2a]" started-at="2021-11-25T13:48:06 IST" name="verifyTitle" finished-at="2021-11-25T13:48:06 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.Activity1@407a7f2a]" started-at="2021-11-25T13:48:06 IST" name="afterMethod" finished-at="2021-11-25T13:48:08 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG.Activity1 -->
+      <class name="com.ibm.Activity_8">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_8@48c76607]" started-at="2021-11-25T13:48:08 IST" name="browserSetUp" finished-at="2021-11-25T13:48:15 IST" duration-ms="7305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.ibm.Activity_8@48c76607]" started-at="2021-11-25T13:48:15 IST" name="verifyLogin" finished-at="2021-11-25T13:48:19 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ibm.Activity_8@48c76607]" started-at="2021-11-25T13:50:08 IST" name="close" finished-at="2021-11-25T13:50:09 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ibm.Activity_8 -->
+      <class name="com.ibm.Activity_7">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_7@43599640]" started-at="2021-11-25T13:48:19 IST" name="browserSetUp" finished-at="2021-11-25T13:48:21 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyNewJobListing()[pri:0, instance:com.ibm.Activity_7@43599640]" started-at="2021-11-25T13:48:21 IST" name="verifyNewJobListing" finished-at="2021-11-25T13:48:29 IST" duration-ms="7198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewJobListing -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ibm.Activity_7@43599640]" started-at="2021-11-25T13:50:08 IST" name="close" finished-at="2021-11-25T13:50:08 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ibm.Activity_7 -->
+      <class name="com.ibm.Activity_6">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_6@29a5f4e7]" started-at="2021-11-25T13:49:36 IST" name="browserSetUp" finished-at="2021-11-25T13:49:38 IST" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyApplyingAJob()[pri:0, instance:com.ibm.Activity_6@29a5f4e7]" started-at="2021-11-25T13:49:38 IST" name="verifyApplyingAJob" finished-at="2021-11-25T13:49:58 IST" duration-ms="19812" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='job_application application']/input"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\0027RQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c96ea2b9c010a99d1437c596cd075182
+*** Element info: {Using=xpath, value=//div[@class='job_application application']/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='job_application application']/input"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\0027RQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c96ea2b9c010a99d1437c596cd075182
+*** Element info: {Using=xpath, value=//div[@class='job_application application']/input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy17.click(Unknown Source)
+at com.ibm.Activity_6.verifyApplyingAJob(Activity_6.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyingAJob -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ibm.Activity_6@29a5f4e7]" started-at="2021-11-25T13:50:08 IST" name="close" finished-at="2021-11-25T13:50:08 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ibm.Activity_6 -->
+      <class name="com.ibm.Activity_5">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_5@79c97cb]" started-at="2021-11-25T13:49:58 IST" name="browserSetUp" finished-at="2021-11-25T13:49:59 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyJobspage()[pri:0, instance:com.ibm.Activity_5@79c97cb]" started-at="2021-11-25T13:49:59 IST" name="verifyJobspage" finished-at="2021-11-25T13:50:03 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobspage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ibm.Activity_5@79c97cb]" started-at="2021-11-25T13:50:04 IST" name="close" finished-at="2021-11-25T13:50:08 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ibm.Activity_5 -->
+      <class name="TestNG.Activity5">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:01 IST" name="beforeClass" finished-at="2021-11-25T13:49:07 IST" duration-ms="5910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="buttonTest1()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="buttonTest1" finished-at="2021-11-25T13:49:07 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonTest1 -->
+        <test-method signature="buttonTest2()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="buttonTest2" finished-at="2021-11-25T13:49:07 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonTest2 -->
+        <test-method signature="headerTest1()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="headerTest1" finished-at="2021-11-25T13:49:07 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest1 -->
+        <test-method signature="headerTest2()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="headerTest2" finished-at="2021-11-25T13:49:07 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest2 -->
+        <test-method signature="testCase()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="testCase" finished-at="2021-11-25T13:49:07 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Activity5@55c53a33]" started-at="2021-11-25T13:49:07 IST" name="afterClass" finished-at="2021-11-25T13:49:10 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Activity5 -->
+      <class name="TestNG.Activity4">
+        <test-method signature="Test()[pri:0, instance:TestNG.Activity4@53b7f657]" started-at="2021-11-25T13:49:10 IST" name="Test" finished-at="2021-11-25T13:49:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestNG.Activity4 -->
+      <class name="TestNG.Activity3">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.Activity3@1f81aa00]" started-at="2021-11-25T13:48:29 IST" name="beforeClass" finished-at="2021-11-25T13:48:34 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="login()[pri:0, instance:TestNG.Activity3@1f81aa00]" started-at="2021-11-25T13:48:34 IST" name="login" finished-at="2021-11-25T13:48:34 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Activity3@1f81aa00]" started-at="2021-11-25T13:48:34 IST" name="afterClass" finished-at="2021-11-25T13:48:38 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Activity3 -->
+      <class name="com.ibm.Activity_9">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.ibm.Activity_9@544d57e]" started-at="2021-11-25T13:48:47 IST" name="browserSetUp" finished-at="2021-11-25T13:48:50 IST" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="verifyNewJobUsingBackend()[pri:0, instance:com.ibm.Activity_9@544d57e]" started-at="2021-11-25T13:48:50 IST" name="verifyNewJobUsingBackend" finished-at="2021-11-25T13:49:01 IST" duration-ms="10376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewJobUsingBackend -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ibm.Activity_9@544d57e]" started-at="2021-11-25T13:50:09 IST" name="close" finished-at="2021-11-25T13:50:09 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.ibm.Activity_9 -->
+      <class name="TestNG.Activity2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.Activity2@1787bc24]" started-at="2021-11-25T13:48:38 IST" name="beforeClass" finished-at="2021-11-25T13:48:43 IST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f1()[pri:0, instance:TestNG.Activity2@1787bc24]" started-at="2021-11-25T13:48:43 IST" name="f1" finished-at="2021-11-25T13:48:43 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Target Practice ] but found [Training Support]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Target Practice ] but found [Training Support]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestNG.Activity2.f1(Activity2.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:TestNG.Activity2@1787bc24]" started-at="2021-11-25T13:48:43 IST" name="f2" finished-at="2021-11-25T13:48:43 IST" duration-ms="41" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .ui\ black\ button
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\0027RQ744\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 531b9d00-98c1-4570-99ed-386451d5a5b0
+*** Element info: {Using=class name, value=ui black button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .ui\ black\ button
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-ULJM1V86J9P', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12600, moz:profile: C:\Users\0027RQ744\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 531b9d00-98c1-4570-99ed-386451d5a5b0
+*** Element info: {Using=class name, value=ui black button}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.Activity2.f2(Activity2.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method signature="f4()[pri:0, instance:TestNG.Activity2@1787bc24]" started-at="2021-11-25T13:48:43 IST" name="f4" finished-at="2021-11-25T13:48:43 IST" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test case
+at TestNG.Activity2.f4(Activity2.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Activity2@1787bc24]" started-at="2021-11-25T13:48:43 IST" name="afterClass" finished-at="2021-11-25T13:48:47 IST" duration-ms="3610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Activity2 -->
+      <class name="TestNG.Activity9">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:47:53 IST" name="beforeTest" finished-at="2021-11-25T13:48:00 IST" duration-ms="7119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page title is Javascript Alerts |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="beforeMethod" finished-at="2021-11-25T13:49:19 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="simpleAlertTestCase()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="simpleAlertTestCase" finished-at="2021-11-25T13:49:19 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[simpleAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Simple Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Alert! |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- simpleAlertTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="beforeMethod" finished-at="2021-11-25T13:49:19 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="confirmAlertTestCase()[pri:1, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="confirmAlertTestCase" finished-at="2021-11-25T13:49:19 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[confirmAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Confirmation! |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed |]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmAlertTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="beforeMethod" finished-at="2021-11-25T13:49:19 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="promptAlertTestCase()[pri:2, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:49:19 IST" name="promptAlertTestCase" finished-at="2021-11-25T13:49:20 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[promptAlertTestCase() started |]]>
+            </line>
+            <line>
+              <![CDATA[Prompt Alert opened |]]>
+            </line>
+            <line>
+              <![CDATA[Switched foucs to alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert text is: This is a JavaScript Prompt! |]]>
+            </line>
+            <line>
+              <![CDATA[Text entered in prompt alert |]]>
+            </line>
+            <line>
+              <![CDATA[Alert closed |]]>
+            </line>
+            <line>
+              <![CDATA[Test case ended |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- promptAlertTestCase -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.Activity9@5a37d3ed]" started-at="2021-11-25T13:50:03 IST" name="afterTest" finished-at="2021-11-25T13:50:04 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Ending Test |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.Activity9 -->
+      <class name="TestNG.Activity8">
+        <test-method signature="Test()[pri:0, instance:TestNG.Activity8@26df6e3a]" started-at="2021-11-25T13:49:20 IST" name="Test" finished-at="2021-11-25T13:49:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestNG.Activity8 -->
+      <class name="TestNG.Activity7">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.Activity7@797b0699]" started-at="2021-11-25T13:49:10 IST" name="beforeClass" finished-at="2021-11-25T13:49:16 IST" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Activity7@797b0699]" started-at="2021-11-25T13:49:16 IST" name="login" data-provider="Authentication" finished-at="2021-11-25T13:49:16 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Activity7@797b0699]" started-at="2021-11-25T13:49:16 IST" name="afterClass" finished-at="2021-11-25T13:49:19 IST" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Activity7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
